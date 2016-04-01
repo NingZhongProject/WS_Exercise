@@ -26,7 +26,8 @@ It is developed using Java and Spring framework.  Maven was used for build and d
 
    * WS_Exercise-master/src/main/java/com/exercise/services
     
-     The classes that implement service logics are collected in this directory.
+     The classes that implement service logics are collected in this directory. The function to obtain the first n Fabonacci numbers is put
+     in a helper class, which is separated from the service class
      
    * WS_Exercise-master/src/test/java/com/exercise/test
    
@@ -88,7 +89,8 @@ It is developed using Java and Spring framework.  Maven was used for build and d
     
     http://localhost:8080/WS_TestProject-1.1/fabonacci/20
     
-    In the future, we may config Maven to deploy the war file to tomcat automatically.
+    In the future, we may config Maven to deploy the war file to tomcat automatically. In the future, with the number of users increasing and 
+    the server load becomes an issue, we may consider deploy to a cluster of tomcat servers and apply load balancing strategy.
     
  6) Unit and functional tests
  
@@ -99,3 +101,5 @@ It is developed using Java and Spring framework.  Maven was used for build and d
     	   mvn clean 
     
 	   mvn test
+	   
+    In the future, we may consider adding test cases to simulate simultaneous access requests from a large number of users.
