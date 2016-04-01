@@ -52,6 +52,8 @@ It is developed using Java and Spring framework.  Maven was used for build and d
    
 	   java -jar target/WS_TestProject-1.1.war
 	   
+	   (or just execute "mvn spring-boot:run")
+	   
    Once the embedded tomcat server is up and running, we can use a browser (or curl command) to the Restful web service.
    
    Another way to launch the service is to deploy it to a tomcat server, which is described in section 5).
