@@ -27,7 +27,7 @@ It is developed using Java and Spring framework.  Maven was used for build and d
    * WS_Exercise-master/src/main/java/com/exercise/services
     
      The classes that implement service logics are collected in this directory. The function to obtain the first n Fabonacci numbers is put
-     in a helper class, which is separated from the service class
+     in a helper class, which is separated from the service class.
      
    * WS_Exercise-master/src/test/java/com/exercise/test
    
