@@ -1,13 +1,5 @@
-###########
-
-dfsdfkasjkfjsadk
-
-again
-and again
-
-
-0. Introduction
-
+ 
+ 
 This project implements a RESTful web service to accept a number as input and returns the first n Fibonacci numbers.
 It is developed using Java and Spring framework.  Maven was used for build and deployment purpose.
 
